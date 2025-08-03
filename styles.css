@@ -1,0 +1,34 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to right, pink, magenta);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+@media (min-width: 250px) and (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 770px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 771px) {
+  body {
+    font-size: 2rem;
+  }
+}
