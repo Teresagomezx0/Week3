@@ -1,4 +1,5 @@
 "use strict";
+console.log("BEGINNING OF HARD");
 
 //make the patients/clients function for name and ssn
 function createClient(name, ssn) {

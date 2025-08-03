@@ -1,4 +1,5 @@
 "use strict";
+console.log("BEGINNING OF MEDIUM");
 
 //first I need to make a funciton that will divide slices by the number of people
 function sharePizza(slices, people) {

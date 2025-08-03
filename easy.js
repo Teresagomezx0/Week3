@@ -1,7 +1,7 @@
 "use strict";
-console.log("hello");
-//Start of the first challenge
+console.log("BEGINNING OF EASY");
 
+//Start of the first challenge
 //this is the outer function and is nessesary to be able to return the inner function
 function todaysExercise() {
   //this is the inner function which can see the outer function
